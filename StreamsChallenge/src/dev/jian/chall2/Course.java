@@ -1,15 +1,27 @@
 package dev.jian.chall2;
 
-public final class Course {
+public class Course {
 
     private String courseCode;
     private String title;
     private int lectureCount;
 
-    public Course(String courseCode, String title, int lectureCount) {
+
+    public Course(){
+        if (this.lectureCount <=0) lectureCount=1;
+    }
+    public Course(String courseCode, String title) {
+        super();
         this.courseCode = courseCode;
         this.title = title;
-        this.lectureCount = lectureCount;
+        this.lectureCount=40;
+    }
+
+    public Course(String courseCode, String title, int lectureCount) {
+        super();
+        this.courseCode = courseCode;
+        this.title = title;
+        this.lectureCount=lectureCount;
     }
 
     public String getCourseCode() {
