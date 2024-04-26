@@ -22,7 +22,8 @@ public class Main2 {
 
         List<Student> addGamingCourse = largeStudentList.stream()
                 .filter(s-> s.getPercentComplete("PYMC")>=percentPYMC)
-                .sorted(Comparator.comparing(s-> s.getYearEnrolled()))
+                .sorted(Comparator.comparing(Student::getYearEnrolled)) // method reference
+                //.sorted(Comparator.comparing(s-> s.getYearEnrolled()))  // lambda expresssion
                 .limit(10)
                 .toList();
 

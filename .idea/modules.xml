@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FileExceptions/FileExceptions.iml" filepath="$PROJECT_DIR$/FileExceptions/FileExceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaUdemy.iml" filepath="$PROJECT_DIR$/.idea/JavaUdemy.iml" />
       <module fileurl="file://$PROJECT_DIR$/LambdaChallenge/LambdaChallenge.iml" filepath="$PROJECT_DIR$/LambdaChallenge/LambdaChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/MultiThreadChallenge/MultiThreadChallenge.iml" filepath="$PROJECT_DIR$/MultiThreadChallenge/MultiThreadChallenge.iml" />
