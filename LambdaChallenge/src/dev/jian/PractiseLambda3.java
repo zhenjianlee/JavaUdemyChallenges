@@ -11,7 +11,6 @@ public class PractiseLambda3 {
 
         String[] nameArray = new String[] {"Anna", "Bob", "Lucas", "Angelina", "Brad", "Howard", "John", "Dave","Joe","Kate","Wesley","Gina","Julia", "Brendan"};
 
-
         // NOT SURE HOW TO USE THIS FUNCTIONAL INTERFACE? ---?
         /*
         Function<String,String> transform =(name)->{
@@ -19,7 +18,6 @@ public class PractiseLambda3 {
             StringBuilder lastName = new StringBuilder(name).reverse();
             name+= " "+ Character.toString((char)(new Random().nextInt(65,90))) +".";
             return name+" "+lastName.toString();
-
         };
         */
 
